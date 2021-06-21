@@ -395,9 +395,7 @@ nav a{
 
 .questions__form_label{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-
 }
 
 .questions__form_label p{
@@ -408,7 +406,7 @@ nav a{
     color: #787878;
 }
 
-.checkbox{
+.checkbox {
     -webkit-appearance: none;
     display: inline-block;
     width: 20px;
@@ -513,39 +511,6 @@ footer{
         .header__flex{
             margin-left: 2%;
             margin-right: 2%;
-        }
-
-        .header__flex img{
-            width: 100px;
-            height: auto;
-        }
-
-        .elem_phone{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 30px;
-            width: 340px;
-        }
-
-        .elem_phone img{
-            padding-right: 25px;
-            width: 30px;
-            height: auto;
-        }
-
-        .basket{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 30px;
-            width: 190px;
-        }
-
-        .basket img{
-            padding-left: 20px;
-            width: 37px;
-            height: auto;
         }
 
         .content__flex{
@@ -726,38 +691,31 @@ footer{
 
         .questions__form_elem{
             display: flex;
+            justify-content: center;
             align-items: center;
             flex-direction: column;
         }
 
         .text-box{
-            font-size: 30px;
+            font-size: 20px;
             width: 500px;
             margin-top: 40px;
         }
 
         .questions__form_msg p{
-            font-size: 30px;
+            font-size: 20px;
         }
 
         .questions__form_label{
-            display: flex;
-            justify-content: flex-start;
-            font-size: 35px;
-        }
-
-        .questions__form_label p{
-            margin-left: 20px;
+            font-size: 20px;
         }
 
         .checkbox{
-            width: 60px;
-            height: 60px
+            width: 35px;
+            height: 35px;
         }
 
         .questions__form_checkbox{
-            display: flex;
-            justify-content: center;
             margin-top: 30px;
         }
 
